@@ -26,4 +26,6 @@ console.log(functionalMap(states));
 function functionalMap(states) {
 	return states.map(function(state)  { return urlify(state) });
 }
-console.log("https://example.com/");console.log(functionalMap(states));
+console.log("https://example.com/");
+
+console.log(functionalMap(states));
