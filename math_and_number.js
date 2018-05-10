@@ -34,3 +34,27 @@ console.log(j);
 
 k = Math.log10(Math.E);
 console.log(k);
+
+var tau = 2 * Math.PI;
+console.log(tau.toString());
+
+l = 100.0.toString();
+console.log(l);
+
+m = String(100);
+console.log(m);
+
+n = String(100.0);
+console.log(n);
+
+o = String(tau);
+console.log(o);
+
+p = Number("6.283185307179586");
+console.log(p);
+
+q = String(Number("6.283185307179586"));
+console.log(q);
+
+r = Number('1.24e6');
+console.log(r);
