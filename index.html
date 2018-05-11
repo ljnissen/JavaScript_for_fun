@@ -4,11 +4,10 @@
 		<title>JavaScript for fun</title>
 		<meta charset="utf-8">
 		<script>
-			alert("Hello, world!");
-			console.log("This page contains explicit language");
-			let firstName = "LJ";
-			let lastName = "Nissen";
-			console.log(firstName + " " + lastName);
+			const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+			var now = new Date();
+			var dayname = daysOfTheWeek[now.getDay()];
+			alert('Hello, world! Happy ${ dayname }.');
 		</script>
 	</head>
 
