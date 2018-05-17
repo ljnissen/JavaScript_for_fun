@@ -21,3 +21,12 @@ if (s.match(postNummer)) {
 zipCode = /\d{5}/g;
 
 console.log(s.match(zipCode));
+
+var q = "ant bat cat duck".split(" ");
+console.log(q);
+
+var x = "ant bat cat duck".split(/\s+/);
+console.log(x);
+
+var z = "ant   bat\tcat\nduck".split(/\s+/);
+console.log(z);
