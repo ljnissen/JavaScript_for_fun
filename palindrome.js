@@ -5,5 +5,6 @@ function reverse(string) {
 
 // Returns true for a palindrome, false otherwise
 function palindrome(string) {
-	return string === reverse(string);
+	var processedContent = string.toLowerCase();
+	return processedContent === reverse(processedContent);
 }
